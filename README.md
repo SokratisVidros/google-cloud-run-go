@@ -69,7 +69,7 @@ CMD ["/app/main"]
 
 相关配置可以参考 [推送和拉取映像](https://cloud.google.com/container-registry/docs/pushing-and-pulling)，需要注意的是需要一个项目 ID，这个 ID 可以在 [home/dashboard](https://console.cloud.google.com/home/dashboard) 下找到
 
-![Google Porject](http://hellowoodes.oss-cn-beijing.aliyuncs.com/blog/GoogleCloudRun1.png)
+![Google Porject](GoogleCloudRun1.png)
 
 - 配置本地 Docker
 
@@ -93,9 +93,9 @@ docker push gcr.io/genial-post-128203/serverless
 
 在[Cloud Run](https://console.cloud.google.com/run) 页面选择创建服务
 
-![创建服务](http://hellowoodes.oss-cn-beijing.aliyuncs.com/blog/GoogleCloudRun2.png)
+![创建服务](GoogleCloudRun2.png)
 
-![服务详情]( http://hellowoodes.oss-cn-beijing.aliyuncs.com/blog/GoogleCloudRun3.png)
+![服务详情](GoogleCloudRun3.png)
 
 ## 测试
 
